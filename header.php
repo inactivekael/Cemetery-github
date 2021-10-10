@@ -28,6 +28,7 @@ session_start();
                     echo "<a href='index.php'>Home</a>";
                     echo "<a href='LogIn.php'>Log in</a>";
                     echo "<a href='Register.php'>Register</a>";
+                    echo "<a href='dead.php'>Info</a>";
                 }
                 ?>
             </nav> 

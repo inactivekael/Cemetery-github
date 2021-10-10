@@ -17,7 +17,7 @@ include_once 'header.php';
                 <input type="text" name="num" placeholder="Contact Number ..."/>
 
                 <label>Email Address</label>
-                <input type="text" name="email" placeholder="Email..."/>
+                <input type="email" name="email" placeholder="Email..."/>
 
                 <label>Password </label>
                 <input type="password" name="password"/>
