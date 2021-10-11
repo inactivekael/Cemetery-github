@@ -1,6 +1,7 @@
 <?php
 include_once 'header.php';
 include_once 'php/db.inc.php';
+
 ?>
 
 <html>
@@ -39,11 +40,11 @@ include_once 'php/db.inc.php';
             <td><?php echo $row['dob']; ?></td>
             <td><?php echo $row['dod']; ?></td>
 			<td>
-				<a href="dead.php?edit=<?php echo $row['id'] ?>" class="edit_btn" >Edit</a>
-			</td>
-			<td>
-				<a href="php/db.inc.php?edit=<?php echo $row['id'] ?>" class="del_btn">Delete</a>
-			</td>
+                <a href='dead.php?edit=<?php echo $row['dead_id'] ?>' class="edit_btn" >Edit</a>
+            </td>
+            <td>
+                <a href='php/db.dead.inc.php?del=<?php echo $row['dead_id'] ?>' class="del_btn" name="del">Delete</a>
+            </td>
 		</tr>
 	<?php } ?>
 </table>
@@ -72,6 +73,8 @@ include_once 'php/db.inc.php';
 		<div class="input-group">
 			<button class="btn" type="submit" name="save" >Save</button>
 		</div>
+            
+        
 	</form>
     
 </body>

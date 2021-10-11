@@ -1,5 +1,6 @@
 <?php
 include_once 'header.php';
+
 ?>
 <body>
         <div class="logform">
@@ -17,7 +18,7 @@ include_once 'header.php';
                 <input type="text" name="num" placeholder="Contact Number ..."/>
 
                 <label>Email Address</label>
-                <input type="email" name="email" placeholder="Email..."/>
+                <input type="email" name="email" placeholder="email@email.com"/>
 
                 <label>Password </label>
                 <input type="password" name="password"/>
